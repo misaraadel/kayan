@@ -15,7 +15,7 @@
     height: 100%;
     background-color: #333;
     top: 0;
-    left: 0;
+    right: 0;
     border-radius: 5px;
     z-index: -1;
   }
@@ -39,6 +39,7 @@
   align-items: center;
   align-content: center;
   transition: all .3s linear;
+
   img {
     width: 100%;
     height: 100%;
@@ -50,7 +51,7 @@
     width: 100%;
     position: absolute;
     bottom: 20px;
-    left: 0;
+    right: 0;
     text-align: center;
     font-size: 25px;
     font-weight: 900;
@@ -65,7 +66,7 @@
     height: 70%;
     z-index: 9;
     bottom: 0;
-    left: 0;
+    right: 0;
     pointer-events: none;
     background: linear-gradient(0deg,rgba(0,0,0,.7), transparent);
     transition: all .3s linear;
@@ -147,11 +148,11 @@
     .add-to-cart {
       position: absolute;
       bottom: 0px;
-      right: -100px;
+      left: -100px;
       width: 40px;
       height: 40px;
       background-color: #000;
-      border-radius: 30px 0px 10px 30px;
+      border-radius: 0px 30px 30px 10px;
       display: flex;
       align-items: center;
       align-content: center;
@@ -168,7 +169,7 @@
 
       &:hover {
         img {
-          animation: fadeInLeft .3s linear both;
+          animation: fadeInright .3s linear both;
         }
       }
     }
@@ -182,7 +183,7 @@
     }
 
     .add-to-cart {
-      right: 0px;
+      left: 0px;
     }
   }
 }
@@ -192,7 +193,7 @@
   padding: 0px;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   background-color: #fff;
 
@@ -278,7 +279,7 @@
             box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.06);
             border-radius: 10px;
             top: 100%;
-            left: 0;
+            right: 0;
             z-index: 99;
             transform: translateY(20px);
             opacity: 0;
@@ -388,7 +389,7 @@
               height: 14px;
               background: url('../images/down_arrow.png') center / contain no-repeat;
               top: calc(50% - 7px);
-              left: 10px;
+              right: 10px;
               z-index: -1;
               transition: all .3s linear;
             }
@@ -413,7 +414,7 @@
         width: 150px;
         height: 100px;
         object-fit: contain;
-        object-position: left;
+        object-position: right;
         transition: all .3s linear;
       }
 
@@ -432,7 +433,7 @@
             height: 24px;
             position: absolute;
             top: calc(50% - 12px);
-            left: 15px;
+            right: 15px;
           }
 
           .form-control {
@@ -488,7 +489,7 @@
           font-weight: 500;
           position: absolute;
           top: -10px;
-          left: -10px;
+          right: -10px;
           border-radius: 50%;
         }
 
@@ -543,7 +544,7 @@
             height: 14px;
             background: url('../images/down_arrow.png') center / contain no-repeat;
             top: calc(50% - 7px);
-            right: 2px;
+            left: 2px;
             z-index: -1;
             transition: all .3s linear;
           }
@@ -557,7 +558,7 @@
           box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.06);
           border-radius: 10px;
           top: 100%;
-          left: 0;
+          right: 0;
           z-index: 99;
           transform: translateY(20px);
           opacity: 0;
@@ -646,7 +647,7 @@
           height: 0px;
           background-color: rgba($color: #87B467, $alpha: 0.3);
           top: 0;
-          left: 0;
+          right: 0;
           z-index: -1;
           transition: all .3s linear;
         }
@@ -666,7 +667,7 @@
 .bottom-nav {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   z-index: 999;
   display: none;
   align-items: center;
@@ -713,7 +714,7 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
@@ -731,7 +732,7 @@
   .contain {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     transform: translateY(-40px);
     opacity: 0;
@@ -756,7 +757,7 @@
           height: 24px;
           position: absolute;
           top: calc(50% - 12px);
-          left: 15px;
+          right: 15px;
         }
 
         .form-control {
@@ -801,7 +802,7 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
@@ -826,7 +827,7 @@
     visibility: hidden;
     transition: all .3s linear;
     top: 0;
-    right: -100%;
+    left: -100%;
     z-index: 999;
 
     .brand-name img {
@@ -918,7 +919,7 @@
         box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.06);
         border-radius: 10px;
         top: 100%;
-        left: 0;
+        right: 0;
         z-index: 99;
         transform: translateY(20px);
         opacity: 0;
@@ -1033,7 +1034,7 @@
             height: 14px;
             background: url('../images/down_arrow.png') center / contain no-repeat;
             top: calc(50% - 7px);
-            left: 10px;
+            right: 10px;
             z-index: -1;
             transition: all .3s linear;
           }
@@ -1054,7 +1055,7 @@
     }
 
     .side-contain {
-      right: 0px;
+      left: 0px;
       opacity: 1;
       visibility: visible;
       transition: all .3s linear;
@@ -1067,7 +1068,7 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
@@ -1089,7 +1090,7 @@
     overflow-y: scroll;
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     height: 300px;
     background-color: #fff;
     transform: translateY(40px);
@@ -1109,7 +1110,7 @@
       width: 100%;
       position: sticky;
       top: 0;
-      left: 0;
+      right: 0;
       color: #000;
       font-size: 20px;
       font-weight: 900;
@@ -1143,7 +1144,7 @@
             height: 100%;
             background-color: rgba($color: #87B467, $alpha: 0.3);
             top: 0;
-            left: 0;
+            right: 0;
             z-index: -1;
             transition: all .3s linear;
           }
@@ -1213,7 +1214,7 @@ footer {
 
         &:hover {
           color: #87B467;
-          transform: translateX(10px);
+          transform: translateX(-10px);
 
           img {
             filter: invert(75%) sepia(21%) saturate(771%) hue-rotate(52deg) brightness(86%) contrast(83%);

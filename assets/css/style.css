@@ -995,7 +995,7 @@ ul {
   height: 100%;
   background-color: #333;
   top: 0;
-  left: 0;
+  right: 0;
   border-radius: 5px;
   z-index: -1;
 }
@@ -1029,7 +1029,7 @@ ul {
   width: 100%;
   position: absolute;
   bottom: 20px;
-  left: 0;
+  right: 0;
   text-align: center;
   font-size: 25px;
   font-weight: 900;
@@ -1043,7 +1043,7 @@ ul {
   height: 70%;
   z-index: 9;
   bottom: 0;
-  left: 0;
+  right: 0;
   pointer-events: none;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), transparent);
   transition: all 0.3s linear;
@@ -1116,11 +1116,11 @@ ul {
 .product-box .content .add-to-cart {
   position: absolute;
   bottom: 0px;
-  right: -100px;
+  left: -100px;
   width: 40px;
   height: 40px;
   background-color: #000;
-  border-radius: 30px 0px 10px 30px;
+  border-radius: 0px 30px 30px 10px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -1136,8 +1136,8 @@ ul {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(91deg) brightness(100%) contrast(104%);
 }
 .product-box .content .add-to-cart:hover img {
-  -webkit-animation: fadeInLeft 0.3s linear both;
-          animation: fadeInLeft 0.3s linear both;
+  -webkit-animation: fadeInright 0.3s linear both;
+          animation: fadeInright 0.3s linear both;
 }
 .product-box:hover {
   transform: translateY(-10px);
@@ -1146,7 +1146,7 @@ ul {
   color: #87B467;
 }
 .product-box:hover .add-to-cart {
-  right: 0px;
+  left: 0px;
 }
 
 .navbar {
@@ -1154,7 +1154,7 @@ ul {
   padding: 0px;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   background-color: #fff;
 }
@@ -1231,7 +1231,7 @@ ul {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: 99;
   transform: translateY(20px);
   opacity: 0;
@@ -1329,7 +1329,7 @@ ul {
   height: 14px;
   background: url("../images/down_arrow.png") center/contain no-repeat;
   top: calc(50% - 7px);
-  left: 10px;
+  right: 10px;
   z-index: -1;
   transition: all 0.3s linear;
 }
@@ -1349,8 +1349,8 @@ ul {
   height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
-  -o-object-position: left;
-     object-position: left;
+  -o-object-position: right;
+     object-position: right;
   transition: all 0.3s linear;
 }
 .navbar .logo-nav .content .from-contain {
@@ -1368,7 +1368,7 @@ ul {
   height: 24px;
   position: absolute;
   top: calc(50% - 12px);
-  left: 15px;
+  right: 15px;
 }
 .navbar .logo-nav .content .from-contain .form-group .form-control {
   width: 100%;
@@ -1430,7 +1430,7 @@ ul {
   font-weight: 500;
   position: absolute;
   top: -10px;
-  left: -10px;
+  right: -10px;
   border-radius: 50%;
 }
 .navbar .logo-nav .content .shoping-cart:hover img {
@@ -1475,7 +1475,7 @@ ul {
   height: 14px;
   background: url("../images/down_arrow.png") center/contain no-repeat;
   top: calc(50% - 7px);
-  right: 2px;
+  left: 2px;
   z-index: -1;
   transition: all 0.3s linear;
 }
@@ -1487,7 +1487,7 @@ ul {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: 99;
   transform: translateY(20px);
   opacity: 0;
@@ -1560,7 +1560,7 @@ ul {
   height: 0px;
   background-color: rgba(135, 180, 103, 0.3);
   top: 0;
-  left: 0;
+  right: 0;
   z-index: -1;
   transition: all 0.3s linear;
 }
@@ -1574,7 +1574,7 @@ ul {
 .bottom-nav {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   z-index: 999;
   display: none;
   align-items: center;
@@ -1617,7 +1617,7 @@ ul {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
@@ -1634,7 +1634,7 @@ ul {
 .form-popup .contain {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   transform: translateY(-40px);
   opacity: 0;
@@ -1659,7 +1659,7 @@ ul {
   height: 24px;
   position: absolute;
   top: calc(50% - 12px);
-  left: 15px;
+  right: 15px;
 }
 .form-popup .contain .from-contain .form-group .form-control {
   width: 100%;
@@ -1706,7 +1706,7 @@ ul {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
@@ -1730,7 +1730,7 @@ ul {
   visibility: hidden;
   transition: all 0.3s linear;
   top: 0;
-  right: -100%;
+  left: -100%;
   z-index: 999;
 }
 .side-nav .side-contain .brand-name img {
@@ -1812,7 +1812,7 @@ ul {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: 99;
   transform: translateY(20px);
   opacity: 0;
@@ -1915,7 +1915,7 @@ ul {
   height: 14px;
   background: url("../images/down_arrow.png") center/contain no-repeat;
   top: calc(50% - 7px);
-  left: 10px;
+  right: 10px;
   z-index: -1;
   transition: all 0.3s linear;
 }
@@ -1930,7 +1930,7 @@ ul {
   transition: all 0.3s linear;
 }
 .side-nav.active-side .side-contain {
-  right: 0px;
+  left: 0px;
   opacity: 1;
   visibility: visible;
   transition: all 0.3s linear;
@@ -1941,7 +1941,7 @@ ul {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
@@ -1962,7 +1962,7 @@ ul {
   overflow-y: scroll;
   position: absolute;
   bottom: 0;
-  left: 0;
+  right: 0;
   height: 300px;
   background-color: #fff;
   transform: translateY(40px);
@@ -1980,7 +1980,7 @@ ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  left: 0;
+  right: 0;
   color: #000;
   font-size: 20px;
   font-weight: 900;
@@ -2013,7 +2013,7 @@ ul {
   height: 100%;
   background-color: rgba(135, 180, 103, 0.3);
   top: 0;
-  left: 0;
+  right: 0;
   z-index: -1;
   transition: all 0.3s linear;
 }
@@ -2072,7 +2072,7 @@ footer .links li a span {
 }
 footer .links li a:hover {
   color: #87B467;
-  transform: translateX(10px);
+  transform: translateX(-10px);
 }
 footer .links li a:hover img {
   filter: invert(75%) sepia(21%) saturate(771%) hue-rotate(52deg) brightness(86%) contrast(83%);
@@ -2206,5 +2206,11 @@ footer .copyrights a img {
   }
   .bottom-nav {
     display: flex !important;
+  }
+  .heading h1 {
+    font-size: 20px !important;
+  }
+  .category-box h2 {
+    font-size: 17px !important;
   }
 }/*# sourceMappingURL=style.css.map */
