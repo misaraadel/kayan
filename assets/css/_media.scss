@@ -24,12 +24,12 @@
     }
   }
 
-  .category {
+  .category, .single-prodcut, .data-entry {
     padding-top: 140px !important;
     padding-bottom: 20px;
   }
 
-  .heading {
+  .heading, .flex-data {
     margin-bottom: 20px;
   }
 
@@ -96,5 +96,27 @@
 
   .category-box h2 {
     font-size: 17px !important;
+  }
+
+  .navbar .logo-nav .content .brand-name img {
+    height: 80px !important;
+  }
+
+  .number-list {
+    margin-top: 0px !important;
+  }
+
+  .single-prodcut {
+    .image-content {
+      height: 250px;
+    }
+
+    .price-contain {
+      margin-top: 40px !important;
+    }
+  }
+
+  .data-entry .contain {
+    padding: 30px 15px 10px;
   }
 }
